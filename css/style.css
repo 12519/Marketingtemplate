@@ -1,12 +1,16 @@
 /********** Template CSS **********/
 :root {
-    --primary: #06A3DA;
+    --primary: #2f76bb;
     --secondary: #34AD54;
     --light: #EEF9FF;
     --dark: #091E3E;
+   
 }
 
-
+.owl-carousel .owl-item img {
+    display: inline!important;
+    width: 200px!important;
+}
 /*** Spinner ***/
 .spinner {
     width: 40px;
@@ -257,7 +261,7 @@ h6,
     height: 5px;
     left: 0;
     bottom: 0;
-    background: var(--primary);
+    background: #e5b42a;
     border-radius: 2px;
 }
 
@@ -392,7 +396,9 @@ h6,
 .team-item {
     transition: .5s;
 }
-
+.color-white{
+    color:#ffffff;
+}
 .team-social {
     position: absolute;
     width: 100%;
